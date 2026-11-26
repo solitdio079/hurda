@@ -3,9 +3,13 @@
 
 .brand-symbol{flex-shrink:0}@media(max-width:760px){.brand-symbol{width:42px;height:42px}}
 
-.floating-contact{position:fixed;right:24px;bottom:24px;display:flex;gap:10px;z-index:10}
-.floating-contact>a{position:static;display:flex;align-items:center;justify-content:center;gap:8px;min-height:52px;padding:14px 18px;color:#fff;border:1px solid #ffffff60;box-shadow:0 4px 20px #0002;border-radius:4px;font-size:.875rem;font-weight:800}
-.floating-call{background:var(--copper)}
-.floating-call:hover{background:#7c391f}
-.floating-wa:hover{background:#1d5544}
-@media(max-width:760px){.floating-contact{right:15px;bottom:15px;gap:8px}.floating-contact>a{padding:13px 15px}}
+/* Shared hero and floating contact buttons. */
+.contact-actions{display:flex;gap:10px;flex-wrap:wrap}
+.contact-actions[hidden]{display:none}
+.contact-actions>a{display:flex;align-items:center;justify-content:center;gap:8px;min-height:52px;padding:14px 18px;color:#fff;border:1px solid #ffffff60;box-shadow:0 4px 20px #0002;border-radius:4px;font-size:.875rem;font-weight:800}
+.contact-call{background:var(--copper)}
+.contact-call:hover{background:#7c391f}
+.contact-whatsapp{background:var(--green)}
+.contact-whatsapp:hover{background:#1d5544}
+.floating-contact{position:fixed;right:24px;bottom:24px;z-index:10}
+@media(max-width:760px){.floating-contact{right:15px;bottom:15px}.contact-actions{gap:8px}.contact-actions>a{padding:13px 15px}}
