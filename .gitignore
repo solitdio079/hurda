@@ -1,0 +1,7 @@
+node_modules/
+build/
+.react-router/
+.netlify/
+.env*
+.DS_Store
+customer-order-netlify.zip
