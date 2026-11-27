@@ -42,4 +42,4 @@ Images are representative stock photographs, not photographs of this business. P
 - Copper material detail: Patrycja Grobelny, https://www.pexels.com/photo/brown-and-white-rope-on-brown-wooden-surface-11133641/
 - Scrap yard: Tom Fisk, https://www.pexels.com/photo/a-close-up-shot-of-a-pile-of-scrap-9742093/
 
-Typography: Manrope and Barlow Condensed via Google Fonts (OFL). No analytics or advertising trackers are installed.
+Typography: Manrope and Barlow Condensed via Google Fonts (OFL). Google Tag Manager (`GTM-T88PJ6ZD`) and the Google Ads tag (`AW-18582855965`) are installed. All telephone links send the Contact click conversion `AW-18582855965/X8GdCO2W4cAdEJ3C_5xF` through `public/google-ads.js`; WhatsApp links do not trigger it. This measures clicks, not completed calls. After deploying, verify a call-button click with Google Tag Assistant and check the conversion diagnostics in Google Ads. Avoid configuring a second GTM conversion tag for the same phone click, which would duplicate this event.
